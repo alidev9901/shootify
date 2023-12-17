@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/libs/normalize.css">
+    <link rel="stylesheet" href="css/libs/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/libs/fancybox.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header id="header" class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a class="logo header__logo" href="#">
+                <img class="logo__img header__logo-img" src="img/logo.svg" alt="">
+            </a>
+            <nav id="header-nav" class="nav header__nav">
+                <ul class="nav__list header__nav-list">
+                    <li class="nav__item header__nav-item header__nav-item--has-children">
+                        <a class="nav__link header__nav-link" href="#">
+                            Services
+                        </a>
+                        <div class="header__nav-submenu">
+                            <ul class="nav__submenu header__nav-submenu-list">
+                                <li class="nav__submenu-item header__nav-submenu-item">
+                                    <a class="nav__submenu-link header__nav-submenu-link" href="#">
+                                        <img class="nav__submenu-image header__nav-submenu-image" src="/img/menu/menu-item-1.jpg" alt="">
+                                        <span class="nav__submenu-text header__nav-submenu-text">
+                                            Photo
+                                        </span>
+                                        <div class="nav__submenu-description header__nav-submenu-description">
+                                            We offer top quality photos and cutting age 360-degree photos what sell your product.
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav__submenu-item header__nav-submenu-item">
+                                    <a class="nav__submenu-link header__nav-submenu-link" href="#">
+                                        <img class="nav__submenu-image header__nav-submenu-image" src="/img/menu/menu-item-2.jpg" alt="">
+                                        <span class="nav__submenu-text header__nav-submenu-text">
+                                            Video
+                                        </span>
+                                        <div class="nav__submenu-description header__nav-submenu-description">
+                                            360-Degree spin videos that showcase your product at every angle
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav__submenu-item header__nav-submenu-item">
+                                    <a class="nav__submenu-link header__nav-submenu-link" href="#">
+                                        <img class="nav__submenu-image header__nav-submenu-image" src="/img/menu/menu-item-3.jpg" alt="">
+                                        <span class="nav__submenu-text header__nav-submenu-text">
+                                            AI & GRAPHIC DESIGN
+                                        </span>
+                                        <div class="nav__submenu-description header__nav-submenu-description">
+                                            AI technology to create content for social media and advertising. 
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__item header__nav-item">
+                        <a class="nav__link header__nav-link" href="#">
+                            Price
+                        </a>
+                    </li>
+                    <li class="nav__item header__nav-item">
+                        <a class="nav__link header__nav-link" href="#">
+                            Why shootify
+                        </a>
+                    </li>
+                    <li class="nav__item header__nav-item">
+                        <a class="nav__link header__nav-link" href="#">
+                            Our work
+                        </a>
+                    </li>
+                    <li class="nav__item header__nav-item">
+                        <a class="nav__link header__nav-link" href="#">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button id="header-burger" class="btn header__burger">
+                <div class="header__burger-bars">
+                    <span class="header__burger-item"></span>
+                </div> 
+            </button>
+        </div>
+    </div>
+</header>
+    <main class="content" id="content">
+        <div class="page">
+            <section class="section section--gap contact">
+                <div class="container">
+                    <header class="page__header">
+                        <h1 class="page__title page__title--uppercase">
+                            contact
+                        </h1>
+                    </header>
+                    <div class="contact__content">
+                        <div class="contact__thumb">
+                            <img class="contact__image" src="img/contact.png" alt="">
+                        </div>
+                        <form class="form contact__form" method="post">
+                            <div class="contact__form-top">
+                                <div class="contact__form-title">
+                                    Contact
+                                </div>
+                                <div class="contact__form-groups">
+                                    <div class="form__group">
+                                        <label for="name">Name</label>
+                                        <input id="name" type="text" name="name" class="form__field">
+                                    </div>
+                                    <div class="form__group">
+                                        <label for="lastname">Last name</label>
+                                        <input id="lastname" type="text" name="lastname" class="form__field">
+                                    </div>
+                                    <div class="form__group">
+                                        <label for="company">Company</label>
+                                        <input id="company" type="text" name="company" class="form__field">
+                                    </div>
+                                    <div class="form__group">
+                                        <label for="cell">Cell (optional)</label>
+                                        <input id="cell" type="text" name="cell" class="form__field">
+                                    </div>
+                                    <div class="form__group">
+                                        <label for="email">Email</label>
+                                        <input id="email" type="email" name="email" class="form__field">
+                                    </div>
+                                    <div class="form__group">
+                                        <label for="message">Tell us about your product</label>
+                                        <textarea class="form__field form__field--textarea" name="message" id="message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact__form-bottom">
+                                <button class="btn shootify-btn shootify-btn--orange">
+                                    Send
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <nav class="nav footer__nav">
+                <ul class="nav__list footer__nav-list">
+                    <li class="nav__item footer__nav-item">
+                        <a class="nav__link footer__nav-link" href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item footer__nav-item">
+                        <a class="nav__link footer__nav-link" href="#">
+                            Services
+                        </a>
+                    </li>
+                    <li class="nav__item footer__nav-item">
+                        <a class="nav__link footer__nav-link" href="#">
+                            Price
+                        </a>
+                    </li>
+                    <li class="nav__item footer__nav-item">
+                        <a class="nav__link footer__nav-link" href="#">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="nav__item footer__nav-item">
+                        <a class="nav__link footer__nav-link" href="#">
+                            Why shootify
+                        </a>
+                    </li>
+                    <li class="nav__item footer__nav-item">
+                        <a class="nav__link footer__nav-link" href="#">
+                            Our work
+                        </a>
+                    </li>
+                    <li class="nav__item footer__nav-item">
+                        <a class="nav__link footer__nav-link" href="#">
+                            Contacts
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logo footer__logo">
+                <img class="logo__img footer__logo-img" src="img/logo.svg" alt="">
+            </div>
+            <div class="social footer__social footer__social--mobile">
+                <div class="footer__social-title">
+                    Follow our social media.
+                </div>
+                <ul class="social__list footer__social-list">
+                    <li class="social__item footer__social-item">
+                        <a class="social__link footer__social-link" href="#" target="_blank" rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                <path d="M4.40285 12C9.68613 12 12.5754 7.38372 12.5754 3.38065C12.5754 3.24955 12.5728 3.11904 12.5672 2.98907C13.1294 2.56008 13.6145 2.02888 14 1.42039C13.4853 1.66169 12.9315 1.8241 12.3506 1.89734C12.9435 1.52226 13.3988 0.929023 13.6136 0.221776C13.0497 0.57457 12.4329 0.823255 11.7897 0.957116C11.2655 0.368289 10.5194 0 9.69304 0C8.10683 0 6.82054 1.35667 6.82054 3.02896C6.82054 3.26669 6.84577 3.49793 6.89505 3.71971C4.5078 3.59301 2.39096 2.38756 0.974255 0.554589C0.719098 1.01686 0.584879 1.5423 0.585314 2.0772C0.585314 3.12821 1.09241 4.05604 1.86353 4.59884C1.4074 4.58416 0.961288 4.45422 0.56267 4.21994C0.562248 4.23268 0.562248 4.24506 0.562248 4.25864C0.562248 5.72575 1.55234 6.95068 2.86663 7.22824C2.61978 7.29916 2.36507 7.33501 2.10923 7.33487C1.92805 7.33474 1.74729 7.31644 1.56939 7.28022C1.93507 8.48388 2.99544 9.35979 4.25261 9.38427C3.26952 10.197 2.0311 10.681 0.685145 10.681C0.453585 10.681 0.224843 10.6671 0 10.6391C1.27121 11.4984 2.78065 11.9999 4.40299 11.9999" fill="white"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item footer__social-item">
+                        <a class="social__link footer__social-link" href="#" target="_blank" rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="16" viewBox="0 0 8 16" fill="none">
+                                <path d="M7.47579 8.85567L7.89041 6.22137H5.29679V4.51186C5.29679 3.79117 5.65908 3.08868 6.82078 3.08868H8V0.845958C8 0.845958 6.92981 0.667969 5.90666 0.667969C3.77055 0.667969 2.37442 1.92958 2.37442 4.2136V6.22137H0V8.85567H2.37442V15.2239C2.8578 15.2977 3.34634 15.3348 3.83562 15.3346C4.33271 15.3346 4.82068 15.2967 5.29679 15.2239V8.85567H7.47579Z" fill="white"/>
+                            </svg>  
+                        </a>
+                    </li>
+                    <li class="social__item footer__social-item">
+                        <a class="social__link footer__social-link" href="#" target="_blank" rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.81844 0.667969C1.78439 0.667969 1.75043 0.668394 1.71659 0.66924H12.3512C12.3174 0.668394 12.2834 0.667969 12.2494 0.667969H1.81844ZM12.2789 19.3345H1.78889C1.79873 19.3346 1.80858 19.3346 1.81843 19.3346H12.2494C12.2593 19.3346 12.2691 19.3346 12.2789 19.3345ZM10.7916 16.5732H13.5225L13.5236 11.6868C13.5236 9.28793 13.0133 7.44399 10.2454 7.44399C9.72609 7.42447 9.21126 7.54797 8.75575 7.80135C8.30024 8.05473 7.92111 8.4285 7.65875 8.88284H7.62205V7.66555H5.0004V16.5729H7.73129V12.1665C7.73129 11.0045 7.94891 9.87915 9.37125 9.87915C10.7734 9.87915 10.7916 11.2088 10.7916 12.2417V16.5732ZM1.03854 6.17763C1.29919 6.35395 1.6056 6.44803 1.91904 6.44798C2.12716 6.44794 2.33323 6.40638 2.52548 6.32569C2.71774 6.24499 2.89243 6.12673 3.03956 5.97765C3.18669 5.82858 3.30339 5.65161 3.383 5.45686C3.46261 5.26211 3.50356 5.05338 3.50353 4.8426C3.50347 4.52514 3.41047 4.21483 3.23629 3.9509C3.0621 3.68698 2.81456 3.48129 2.52496 3.35986C2.23536 3.23843 1.91671 3.2067 1.6093 3.26869C1.3019 3.33068 1.01955 3.4836 0.797953 3.70812C0.576358 3.93263 0.425474 4.21866 0.36438 4.53003C0.303287 4.8414 0.334728 5.16412 0.454728 5.45739C0.574727 5.75066 0.777896 6.00131 1.03854 6.17763ZM0.55075 16.5732H3.28449V7.66555H0.55075V16.5732Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__contacts">
+                <a class="footer__contacts-item" href="mailto:Info@shootify.us">
+                    Info@shootify.us
+                </a>
+                <a class="footer__contacts-item" href="tel:7863218566">
+                    7863218566
+                </a>
+                <div class="footer__contacts-item">
+                    10889 NW 17th ST #152 <br> MIAMI, FL 33172
+                </div>
+                <div class="social footer__social">
+                    <ul class="social__list footer__social-list">
+                        <li class="social__item footer__social-item">
+                            <a class="social__link footer__social-link" href="#" target="_blank" rel="noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                    <path d="M4.40285 12C9.68613 12 12.5754 7.38372 12.5754 3.38065C12.5754 3.24955 12.5728 3.11904 12.5672 2.98907C13.1294 2.56008 13.6145 2.02888 14 1.42039C13.4853 1.66169 12.9315 1.8241 12.3506 1.89734C12.9435 1.52226 13.3988 0.929023 13.6136 0.221776C13.0497 0.57457 12.4329 0.823255 11.7897 0.957116C11.2655 0.368289 10.5194 0 9.69304 0C8.10683 0 6.82054 1.35667 6.82054 3.02896C6.82054 3.26669 6.84577 3.49793 6.89505 3.71971C4.5078 3.59301 2.39096 2.38756 0.974255 0.554589C0.719098 1.01686 0.584879 1.5423 0.585314 2.0772C0.585314 3.12821 1.09241 4.05604 1.86353 4.59884C1.4074 4.58416 0.961288 4.45422 0.56267 4.21994C0.562248 4.23268 0.562248 4.24506 0.562248 4.25864C0.562248 5.72575 1.55234 6.95068 2.86663 7.22824C2.61978 7.29916 2.36507 7.33501 2.10923 7.33487C1.92805 7.33474 1.74729 7.31644 1.56939 7.28022C1.93507 8.48388 2.99544 9.35979 4.25261 9.38427C3.26952 10.197 2.0311 10.681 0.685145 10.681C0.453585 10.681 0.224843 10.6671 0 10.6391C1.27121 11.4984 2.78065 11.9999 4.40299 11.9999" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item footer__social-item">
+                            <a class="social__link footer__social-link" href="#" target="_blank" rel="noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="16" viewBox="0 0 8 16" fill="none">
+                                    <path d="M7.47579 8.85567L7.89041 6.22137H5.29679V4.51186C5.29679 3.79117 5.65908 3.08868 6.82078 3.08868H8V0.845958C8 0.845958 6.92981 0.667969 5.90666 0.667969C3.77055 0.667969 2.37442 1.92958 2.37442 4.2136V6.22137H0V8.85567H2.37442V15.2239C2.8578 15.2977 3.34634 15.3348 3.83562 15.3346C4.33271 15.3346 4.82068 15.2967 5.29679 15.2239V8.85567H7.47579Z" fill="white"/>
+                                </svg>  
+                            </a>
+                        </li>
+                        <li class="social__item footer__social-item">
+                            <a class="social__link footer__social-link" href="#" target="_blank" rel="noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.81844 0.667969C1.78439 0.667969 1.75043 0.668394 1.71659 0.66924H12.3512C12.3174 0.668394 12.2834 0.667969 12.2494 0.667969H1.81844ZM12.2789 19.3345H1.78889C1.79873 19.3346 1.80858 19.3346 1.81843 19.3346H12.2494C12.2593 19.3346 12.2691 19.3346 12.2789 19.3345ZM10.7916 16.5732H13.5225L13.5236 11.6868C13.5236 9.28793 13.0133 7.44399 10.2454 7.44399C9.72609 7.42447 9.21126 7.54797 8.75575 7.80135C8.30024 8.05473 7.92111 8.4285 7.65875 8.88284H7.62205V7.66555H5.0004V16.5729H7.73129V12.1665C7.73129 11.0045 7.94891 9.87915 9.37125 9.87915C10.7734 9.87915 10.7916 11.2088 10.7916 12.2417V16.5732ZM1.03854 6.17763C1.29919 6.35395 1.6056 6.44803 1.91904 6.44798C2.12716 6.44794 2.33323 6.40638 2.52548 6.32569C2.71774 6.24499 2.89243 6.12673 3.03956 5.97765C3.18669 5.82858 3.30339 5.65161 3.383 5.45686C3.46261 5.26211 3.50356 5.05338 3.50353 4.8426C3.50347 4.52514 3.41047 4.21483 3.23629 3.9509C3.0621 3.68698 2.81456 3.48129 2.52496 3.35986C2.23536 3.23843 1.91671 3.2067 1.6093 3.26869C1.3019 3.33068 1.01955 3.4836 0.797953 3.70812C0.576358 3.93263 0.425474 4.21866 0.36438 4.53003C0.303287 4.8414 0.334728 5.16412 0.454728 5.45739C0.574727 5.75066 0.777896 6.00131 1.03854 6.17763ZM0.55075 16.5732H3.28449V7.66555H0.55075V16.5732Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="footer__bottom-inner">
+                <div class="footer__copyright">
+                    Copyright
+                </div>
+                <nav class="nav footer__bottom-nav">
+                    <ul class="nav__list footer__bottom-nav-list">
+                        <li class="nav__item footer__bottom-nav-item">
+                            <a class="nav__link footer__bottom-nav-link" href="#">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li class="nav__item footer__bottom-nav-item">
+                            <a class="nav__link footer__bottom-nav-link" href="#">
+                                Terms of Use
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__developed">
+                    Made by Deviart
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="success" class="modal success">
+    <div class="modal__content success__content">
+        <button class="btn modal__close">
+            Close modal
+        </button>
+        <div class="success__icon">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="4" width="48" height="48" rx="24" fill="#FF6600" fill-opacity="0.1"/>
+                <rect x="4" y="4" width="48" height="48" rx="24" stroke="#FF6600" stroke-opacity="0.1" stroke-width="8"/>
+                <path d="M38 27.0799V27.9999C37.9988 30.1563 37.3005 32.2545 36.0093 33.9817C34.7182 35.7088 32.9033 36.9723 30.8354 37.5838C28.7674 38.1952 26.5573 38.1218 24.5345 37.3744C22.5117 36.6271 20.7847 35.246 19.611 33.4369C18.4373 31.6279 17.8798 29.4879 18.0217 27.3362C18.1636 25.1844 18.9972 23.1362 20.3983 21.4969C21.7994 19.8577 23.6928 18.7152 25.7962 18.24C27.8996 17.7648 30.1003 17.9822 32.07 18.8599M38 19.9999L28 30.0099L25 27.0099" stroke="#FF6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>                
+        </div>
+        <div class="success__title">
+            Thank you! 
+        </div>
+        <div class="success__subtitle">
+            Shootify team will be in touch soon.
+        </div>
+        <button class="btn shootify-btn close shootify-btn--orange">
+            Continue
+        </button>
+    </div>
+</div>
+<script src="js/libs/swiper-bundle.min.js"></script>
+<script src="js/libs/fancybox.umd.js"></script>
+<script src="js/libs/impetus.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
