@@ -92,6 +92,7 @@
 </header>
     <main class="content" id="content">
         <section class="section intro">
+            <video src="video/firstsection.mp4" class="intro__video" loop autoplay muted></video>
             <div class="container">
                 <div class="intro__content">
                     <header class="intro__header">
@@ -373,7 +374,7 @@
                         <div class="solution-card__title">
                             <span>Photo</span>
                         </div>
-                        <div class="solution-card__thumb solution-card__thumb--zoom" data-scale="1.6">
+                        <div class="solution-card__thumb solution-card__thumb--zoom action-zoom" data-scale="1.6">
                             <img src="img/solutions/photo.png" alt="" class="solution-card__image">
                         </div>
                         <button class="btn solution-card__plus"></button>
@@ -383,9 +384,20 @@
                         <div class="solution-card__title">
                             AI & GRAPHIC <span>DESIGN</span>
                         </div>
-                        <div class="solution-card__thumb solution-card__thumb--change">
-                            <img src="img/solutions/wallet.png" alt="" class="solution-card__image">
-                            <img src="img/solutions/wallet-bg.jpeg" alt="" class="solution-card__image solution-card__image--hide">
+                        <div class="solution-card__thumb solution-card__thumb--after before-after">
+                            <div class="before-after__images">
+                                <div class="before-after__before">
+                                    <img src="img/solutions/wallet.png" alt="" class="solution-card__image before-after__img before-after__img--before">
+                                </div>
+                                <div class="before-after__after">
+                                    <img src="img/solutions/wallet-bg.jpeg" alt="" class="solution-card__image before-after__img before-after__img--after">
+                                </div>
+                            </div>
+                            <input type="range" class="before-after__slider" min="0" max="100" value="50">
+                            <div class="before-after__line"></div>
+                            <div class="before-after__button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000000" viewBox="0 0 256 256"><path d="M136,40V216a8,8,0,0,1-16,0V40a8,8,0,0,1,16,0ZM96,120H35.31l18.35-18.34A8,8,0,0,0,42.34,90.34l-32,32a8,8,0,0,0,0,11.32l32,32a8,8,0,0,0,11.32-11.32L35.31,136H96a8,8,0,0,0,0-16Zm149.66,2.34-32-32a8,8,0,0,0-11.32,11.32L220.69,120H160a8,8,0,0,0,0,16h60.69l-18.35,18.34a8,8,0,0,0,11.32,11.32l32-32A8,8,0,0,0,245.66,122.34Z"></path></svg>
+                            </div>
                         </div>
                         <button class="btn solution-card__plus"></button>
                     </div>
@@ -623,6 +635,12 @@
                             </div>
                             <div class="swiper-slide brands__slide">
                                 <img class="brands__image" src="img/brands/brand-5.png" alt="">
+                            </div>
+                            <div class="swiper-slide brands__slide">
+                                <img class="brands__image" src="img/brands/Nautica-logo.svg" alt="">
+                            </div>
+                            <div class="swiper-slide brands__slide">
+                                <img class="brands__image" src="img/brands/lucyd.png" alt="">
                             </div>
                         </div>
                     </div>
